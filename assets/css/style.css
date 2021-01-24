@@ -86,14 +86,13 @@ p {
     background-color: #2589bd;
 }
 
-/* .benefit {
-    magrin-bottom: 32px;
+
+.benefits /* CONSOLIDATED FROM 3 CLASSES BELOW */ {
+    margin-bottom: 32px;
     color: #ffffff; 
-    attempted to consolidate, but could not get the margins to line up 
-    */
 }
 
-.benefit-lead {
+/* .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -106,28 +105,34 @@ p {
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff; 
-}
+} */
 
-/* consolidate benefit-lead, brand, cost  */
 
+/* COMMENTED OUT (DELETED) AS THIS IS NOT CALLED ANYWHERE IN THE HTML
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* COMMENTED OUT (DELETED) AS THIS IS NOT CALLED ANYWHERE IN THE HTML
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* COMMENTED OUT (DELETED) AS THIS IS NOT CALLED ANYWHERE IN THE HTML
 .benefit-cost h3 {
     margin-bottom: 10px;
-    text-align: center;
+    text-align: center; */
 }
 
-/* consolidate benefit-lead img, brand img, cost img */
+.Beneft img /* CONSOLIDATED FROM 3 CLASSES BELOW */ {
+    display: block;
+    margin: 10px auto;
+    max-width 150px;
+}
 
-.benefit-lead img {
+/* .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -143,9 +148,20 @@ p {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
+} */
 
-/* consolidate .search-engine-optimization, .online-reputation-management, social-media-marketing */
+/* consolidate .search-engine-optimization, .online-reputation-management, social-media-marketing 
+
+.navbar-links {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+} 
+*/
+
 
 .search-engine-optimization {
     margin-bottom: 20px;
@@ -172,7 +188,7 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
-}
+} 
 
 /* consoldiate below 3 */
 
